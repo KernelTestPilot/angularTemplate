@@ -1,0 +1,20 @@
+
+<nav role="navigation" class="bg-dark">
+    <a aria-label="Open seb.se in new tab" href="http://www.seb.se" target="_blank" class="brand">Link Text</a>
+    <h2 class="mx-2">Page heading</h2>
+    <span class="m-2 p-3">
+        <a routerLink="/"
+         routerLinkActive="border-bottom"
+          [routerLinkActiveOptions]="{exact:true}"
+          ariaCurrentWhenActive="page"
+          class="button ghost text-light">Hem</a>
+      </span>
+      <span class="m-2 p-3">
+        <a routerLink="/kontakt" 
+        routerLinkActive=" border-bottom" 
+        [routerLinkActiveOptions]="{exact:true}" 
+        ariaCurrentWhenActive="page"
+        class="button ghost text-light">Kontakt</a>
+      </span>
+      
+</nav>

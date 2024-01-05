@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core'
-import { NggBadgeModule } from '@sebgroup/green-angular'
+import { NggBadgeModule, NggSegmentedControlModule } from '@sebgroup/green-angular'
 
-const green = [NggBadgeModule];
+const green = [NggBadgeModule,NggSegmentedControlModule];
 //Import seb green components and export to other modules here
 
 @NgModule({
